@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="CAMPUS RECRUITMENT SYSTEM MANAGEMET"
+        android:textStyle="bold|normal"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegName"
+            android:hint="ENTER YOUR NAME...."
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegCity"
+            android:hint="ENTER YOUR CITY...."
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegSate"
+            android:hint="ENTER YOUR STATE...."
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegMobileno"
+            android:hint="ENTER YOUR MOBILE NO...."
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="phone" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegEmail"
+            android:hint="ENTER YOUR EMAIL...."
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegPassword"
+            android:hint="ENTER YOUR PASSWORD...."
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegButton"
+            android:text="sign up"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>
